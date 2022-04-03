@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="295.760987">
+<testcase classname="Validation of Audactin Booking" name="TC_01 Validation of Hotel Booking in Audactin Webpage" time="23.855489">
+<system-out><![CDATA[Given User launch Audactin Webpage..........................................passed
+Then User verify Audactin Login Page is displayed...........................passed
+When User enters username and password......................................passed
+And User clicks Login Button................................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User selects Location,Hotel,RoomType,NoOfRooms.........................passed
+And User clicks Search Button...............................................passed
+Then User verify Select Hotel Page is displayed.............................passed
+When User clicks Select Radio Button and clicks Continue Button.............passed
+Then User verify Book a Hotel Page is displayed.............................passed
+When User enters FirstName,LastName,BillingAddress..........................passed
+When User enters CardNumber,ExpiryMonth,ExpiryYear,CVV,CardType.............passed
+And User Clicks BookNow Button..............................................passed
+Then User verify OrderId is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Audactin Booking" name="TC_02 Validation of Multiple Hotel Bookings in Audactin Webpage" time="25.566971">
+<system-out><![CDATA[Given User launch Audactin Webpage..........................................passed
+Then User verify Audactin Login Page is displayed...........................passed
+When User enters username and password......................................passed
+And User clicks Login Button................................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User selects "Sydney","Hotel Creek","Standard"and"2-Two"...............passed
+And User clicks Search Button...............................................passed
+Then User verify Select Hotel Page is displayed.............................passed
+When User clicks Select Radio Button and clicks Continue Button.............passed
+Then User verify Book a Hotel Page is displayed.............................passed
+When User enters "Sathish","Sai","Chennai"..................................passed
+When User enters "1234567812345678","VISA","June","2022"and"789"............passed
+And User Clicks BookNow Button..............................................passed
+Then User verify OrderId is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Audactin Booking" name="TC_02 Validation of Multiple Hotel Bookings in Audactin Webpage 2" time="81.801232">
+<system-out><![CDATA[Given User launch Audactin Webpage..........................................passed
+Then User verify Audactin Login Page is displayed...........................passed
+When User enters username and password......................................passed
+And User clicks Login Button................................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User selects "Melbourne","Hotel Sunshine","Deluxe"and"1-One"...........passed
+And User clicks Search Button...............................................passed
+Then User verify Select Hotel Page is displayed.............................passed
+When User clicks Select Radio Button and clicks Continue Button.............passed
+Then User verify Book a Hotel Page is displayed.............................passed
+When User enters "Sathis","Sai","Erode".....................................passed
+When User enters "1234567832165498","VISA","April","2022"and"456"...........passed
+And User Clicks BookNow Button..............................................passed
+Then User verify OrderId is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Audactin Booking" name="TC_02 Validation of Multiple Hotel Bookings in Audactin Webpage 3" time="82.929484">
+<system-out><![CDATA[Given User launch Audactin Webpage..........................................passed
+Then User verify Audactin Login Page is displayed...........................passed
+When User enters username and password......................................passed
+And User clicks Login Button................................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User selects "Brisbane","Hotel Hervey","Double"and"3-Three"............passed
+And User clicks Search Button...............................................passed
+Then User verify Select Hotel Page is displayed.............................passed
+When User clicks Select Radio Button and clicks Continue Button.............passed
+Then User verify Book a Hotel Page is displayed.............................passed
+When User enters "Satiz","Sai","Salem"......................................passed
+When User enters "1234567878945612","Master Card","May","2022"and"123"......passed
+And User Clicks BookNow Button..............................................passed
+Then User verify OrderId is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Audactin Booking" name="TC_02 Validation of Multiple Hotel Bookings in Audactin Webpage 4" time="81.607811">
+<system-out><![CDATA[Given User launch Audactin Webpage..........................................passed
+Then User verify Audactin Login Page is displayed...........................passed
+When User enters username and password......................................passed
+And User clicks Login Button................................................passed
+Then User verify Search Hotel Page is displayed.............................passed
+When User selects "London","Hotel Cornice","Standard"and"2-Two".............passed
+And User clicks Search Button...............................................passed
+Then User verify Select Hotel Page is displayed.............................passed
+When User clicks Select Radio Button and clicks Continue Button.............passed
+Then User verify Book a Hotel Page is displayed.............................passed
+When User enters "Sathi","Sai","Coimbatore".................................passed
+When User enters "7894561212345678","American Express","December","2022"and"987".passed
+And User Clicks BookNow Button..............................................passed
+Then User verify OrderId is displayed.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
